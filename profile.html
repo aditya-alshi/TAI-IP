@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Website Design - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <nav  class="navbar">
+        <div class="navbar-left">
+            <a href="index.html" class="logo">
+                <img src="linkedin-webpage-img/images/logo.png" alt="">
+            </a>
+            <div class="search-box">
+                <img src="linkedin-webpage-img/images/search.png" alt="">
+                <input type="text" placeholder="Search">
+            </div>
+        </div>
+        <div class="navbar-center">
+            <ul>
+                <li><a href="#" class="active-link"><img src="linkedin-webpage-img/images/home.png" alt=""><span>Home</span></a></li>
+                <li><a href="#"><img src="linkedin-webpage-img/images/network.png" alt=""><span>My Network</span></a></li>
+                <li><a href="#"><img src="linkedin-webpage-img/images/jobs.png" alt=""><span>Jobs</span></a></li>
+                <li><a href="#"><img src="linkedin-webpage-img/images/message.png" alt=""><span>Messaging</span></a></li>
+                <li><a href="#"><img src="linkedin-webpage-img/images/notification.png" alt=""><span>Notifications</span></a></li>
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <div class="online">
+                <img onclick="toggleMenu()" src="linkedin-webpage-img/images/user-1.png" alt="" class="nav-profile-img">
+            </div>
+        </div>
+
+        <!-- ------------------------------ profile-drop-down-meny ------------------------- -->
+         <div class="profile-menu-wrap" id="profileMenu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="linkedin-webpage-img/images/user-1.png" alt="">
+                    <div>
+                        <h3>Rayan Walton</h3>
+                        <a href="#">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <a href="#" class="profile-menu-link">
+                    <img src="linkedin-webpage-img/images/feedback.png" alt="">
+                    <p>Give Feedback</p>
+                    <span></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="linkedin-webpage-img/images/setting.png" alt="">
+                    <p>Settings & Privacy</p>
+                    <span></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="linkedin-webpage-img/images/help.png" alt="">
+                    <p>Help & Support</p>
+                    <span></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="linkedin-webpage-img/images/display.png" alt="">
+                    <p>Display & Accessibility</p>
+                    <span></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="linkedin-webpage-img/images/logout.png" alt="">
+                    <p>Logout</p>
+                    <span></span>
+                </a>
+            </div>
+         </div>
+    </nav>
+
+    <!-- navbar closed -->
+     
+    <div class="container">
+        <div class="profile-main">
+            <div class="profile-container">
+                <img src="linkedin-webpage-img/images/cover-pic.png" width="100%" alt="">
+                <div class="profile-container-inner">
+                    <img src="linkedin-webpage-img/images/user-1.png" class="profile-pic" alt="">
+                    <h1>Rayan Walton</h1>
+                    <b>Lorem ipsum dolor sit amet consectetur | adipisicing elit. Minus, nesciunt!</b>
+                    <p>Lorem ipsum dolor sit amet. <a href="#">Contact info</a></p>
+                    <div class="mutual-connection">
+                        <img src="linkedin-webpage-img/images/user-2.png" alt="">
+                        <span>1 mutual connection : XYZ</span>
+                    </div>
+                    <div class="profile-btn">
+                        <a href="#" class="primary-btn"><img src="linkedin-webpage-img/images/connect.png" alt="">Connect</a>
+                        <a href="#"><img src="linkedin-webpage-img/images/chat.png" alt="">Message</a>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-description">
+                <h2>About</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa porro sunt voluptate voluptatum accusamus odit magnam reiciendis expedita, eligendi impedit mollitia quia sequi magni, voluptas, laboriosam recusandae animi. Sequi iusto velit quidem enim quasi ex voluptatibus fuga asperiores, cumque fugit non nostrum sed adipisci vero earum minima, minus unde nulla!</p>
+                <a href="#" class="see-more-link">See more...</a>
+            </div>
+            <div class="profile-description">
+                <h2>Experience</h2>
+                <div class="profile-desc-row">
+                    <img src="linkedin-webpage-img/images/microsoft.png" alt="">
+                    <div>
+                        <h3>Lead Front-End Developer</h3>
+                        <b>Microsoft &middot; Full-time</b>
+                        <b>Feb 2021 - Present &middot; 1.5 years</b>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis saepe sint accusantium vel aspernatur molestiae quibusdam molestias amet! Temporibus rerum similique consequuntur at quae iure qui dolore nulla recusandae excepturi?</p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="profile-desc-row">
+                    <img src="linkedin-webpage-img/images/slack.png" alt="">
+                    <div>
+                        <h3>Full Stack Developer</h3>
+                        <b>Microsoft &middot; Full-time</b>
+                        <b>June 2021 - Present &middot; 1.5 years</b>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis saepe sint accusantium vel aspernatur molestiae quibusdam molestias amet! Temporibus rerum similique consequuntur at quae iure qui dolore nulla recusandae excepturi?</p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="profile-desc-row">
+                    <img src="linkedin-webpage-img/images/google.png" alt="">
+                    <div>
+                        <h3>Web Developer</h3>
+                        <b>Google &middot; Full-time</b>
+                        <b>Sept 2015 - Present &middot; 9 years</b>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis saepe sint accusantium vel aspernatur molestiae quibusdam molestias amet! Temporibus rerum similique consequuntur at quae iure qui dolore nulla recusandae excepturi?</p>
+                    </div>
+                </div>
+                <hr>
+                <a href="#" class="experience-link">Show all 7 experiences <img src="linkedin-webpage-img/images/right-arrow.png" alt=""></a>
+            </div>
+        </div>
+        <!-- -------- profile sidebar -------- -->
+        <div class="profile-sidebar"></div>
+    </div>
+
+    <script>
+        let profileMenu = document.getElementById("profileMenu");
+        function toggleMenu(){
+            profileMenu.classList.toggle("open-menu");
+        }
+    </script>
+</body>
+</html>
