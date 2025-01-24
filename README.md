@@ -1,3 +1,0 @@
-# TAI-IP
-
-### Challenges
